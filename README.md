@@ -14,7 +14,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 - Start the following services:
   - ✅ Apache
   - ✅ MySQL
- ![setup](step0.png)
+ ![step0](step0.png)
 ---
 
 ## ✅ Step 2: Open phpMyAdmin
@@ -30,7 +30,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 
 - Enter a name for your database, e.g., `info`, and click **Create**.
 
- ![step2](step2png)
+ ![step2](step2.png)
 
 ---
 
