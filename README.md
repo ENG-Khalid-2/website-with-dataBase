@@ -22,7 +22,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 
 - - Click **"New"** on the left to create a new database.
 
- ![steps](step_1.png)
+ ![step1](step1.png)
 
 ---
 
@@ -30,7 +30,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 
 - Enter a name for your database, e.g., `info`, and click **Create**.
 
- ![steps](step2png)
+ ![step2](step2png)
 
 ---
 
@@ -39,7 +39,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 - Inside your database, create a new table named `status`.
 - Set the number of columns to **4**.
 
- ![steps](step3.png)
+ ![step3](step3.png)
 
 ### Table Columns:
 
@@ -123,4 +123,4 @@ if (isset($_GET['toggle'])) {
 http://localhost/info/index.php
 
 after that you should see this :
- ![final result](png)
+ ![finalResult](result.png)
