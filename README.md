@@ -5,7 +5,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 - Save the data to a MySQL database.
 - Display all records in a table.
 - Toggle the status (0 or 1) of each record using a button.
-
+ ![diagram](result.png)
 ---
 
 ## ✅ Step 1: Install XAMPP
@@ -14,7 +14,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 - Start the following services:
   - ✅ Apache
   - ✅ MySQL
-
+ ![setup](step0.png)
 ---
 
 ## ✅ Step 2: Open phpMyAdmin
@@ -22,7 +22,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 
 - - Click **"New"** on the left to create a new database.
 
-📸 ![Create Database](path/to/image1.png)
+ ![steps](step_1.png)
 
 ---
 
@@ -30,7 +30,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 
 - Enter a name for your database, e.g., `info`, and click **Create**.
 
-📸 ![Name Database](path/to/image2.png)
+ ![steps](step2png)
 
 ---
 
@@ -39,7 +39,7 @@ This is a simple web project using PHP and MySQL. It allows you to:
 - Inside your database, create a new table named `status`.
 - Set the number of columns to **4**.
 
-📸 ![Create Table](path/to/image3.png)
+ ![steps](step3.png)
 
 ### Table Columns:
 
@@ -123,3 +123,4 @@ if (isset($_GET['toggle'])) {
 http://localhost/info/index.php
 
 after that you should see this :
+ ![final result](png)
